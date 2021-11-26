@@ -1,10 +1,10 @@
-данный метод ищет максимум из списка
+данный метод ищет минимум из списка
 def large(arr): 
-    max_ = arr[0]
+    min_ = arr[0]
     for ele in arr:
-        if ele > max_:
-           max_ = ele
-    return max_ 
+        if ele < min_:
+           min_ = ele
+    return min_ 
 
 
 #list1 = [1,3,5,4,12,6]
@@ -14,4 +14,4 @@ for i in range (n):
     list1.append(int(input()))
 result = large(list1)
 print(result)
-поулчилсоь  только так поменять
+
