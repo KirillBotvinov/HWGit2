@@ -1,4 +1,5 @@
 данный метод ищет максимум из списка
+
 def large(arr): 
     max_ = arr[0]
     for ele in arr:
@@ -14,4 +15,6 @@ for i in range (n):
     list1.append(int(input()))
 result = large(list1)
 print(result)
-поулчилсоь  только так поменять
+
+
+теперь пользователь сам может вводить массив
